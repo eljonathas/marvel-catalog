@@ -55,7 +55,7 @@ const EventPage = ({ data }: any) => {
           component="p"
           style={{ marginBottom: '3rem' }}
         >
-          {data.result.description || 'No description available for this serie'}
+          {data.result.description || 'No description available for this event'}
         </Typography>
       </ProfileBox>
 

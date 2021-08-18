@@ -62,7 +62,7 @@ export const getStaticProps: GetStaticProps = async () => {
     props: {
       storiesData: storiesData.data ? storiesData.data.results : null
     },
-    revalidate: 60 * 60 * 24
+    revalidate: 60 * 60 * 24 * 5 // 5 days
   }
 }
 export default StoriesIndex

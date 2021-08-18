@@ -51,7 +51,7 @@ const SeriePage = ({ data }: any) => {
           component="p"
           style={{ marginBottom: '3rem' }}
         >
-          {data.result.description || 'No description available for this event'}
+          {data.result.description || 'No description available for this serie'}
         </Typography>
       </ProfileBox>
 

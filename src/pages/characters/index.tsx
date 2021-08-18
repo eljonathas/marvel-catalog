@@ -64,7 +64,7 @@ export const getStaticProps: GetStaticProps = async () => {
     props: {
       charactersData: charactersData.data ? charactersData.data.results : null
     },
-    revalidate: 60 * 60 * 24
+    revalidate: 60 * 60 * 24 * 5 // 5 days
   }
 }
 
