@@ -10,7 +10,7 @@ const Page404 = () => {
         <title>404 - Marvel Catalog</title>
       </Head>
 
-      <ErrorPage message="Thanos broken the page you were looking for" />
+      <ErrorPage message="Thanos broken the results you were looking for" />
     </Container>
   )
 }

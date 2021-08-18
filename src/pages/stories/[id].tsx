@@ -4,8 +4,10 @@ import Head from 'next/head'
 import { Container, Typography } from '@material-ui/core'
 import { getDataById, getStories } from '@services/api'
 import { DataTypes } from '@interfaces/DataTypes'
+
 import { ProfileBox } from '@components/ui/ProfileBox'
 import { ItemsList } from '@components/ui/ItemsList'
+
 import Page404 from '../404'
 
 const StoryPage = ({ data }: any) => {

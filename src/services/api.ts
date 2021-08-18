@@ -143,6 +143,6 @@ export const getDataById = async (id: string, type: string) => {
       series: dataSeries
     }
   } catch (error) {
-    return []
+    return null
   }
 }
