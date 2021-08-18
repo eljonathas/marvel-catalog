@@ -1,0 +1,28 @@
+.headerNavbarList {
+  display: flex;
+  list-style: none;
+  gap: 1.5rem;
+  padding: 0;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+
+  li {
+    cursor: pointer;
+  }
+
+  li > * {
+    text-align: center;
+  }
+
+  li:hover > * {
+    color: white;
+  }
+}
+
+@media (min-width: 768px) {
+  .headerNavbarList {
+    justify-content: flex-start;
+    flex-wrap: unset;
+  }
+}
